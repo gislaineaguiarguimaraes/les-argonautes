@@ -1,15 +1,19 @@
 .header {
   background: #a67a53d1 /*#592d14 #8c5b30*/;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
   position: relative;
+  height: 150px;
+  margin-bottom: 30px;
 }
 
 .header img {
   position: absolute;
   left: 30%;
   max-width: 140px;
-  padding-right: 30px;
+  margin-left: -60px;
 }
 
 .header h1 {
