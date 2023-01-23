@@ -1,3 +1,13 @@
+## Les Argonautes ##
+
+Il s'agit du serveur frontal et principal du projet technologique de l'école de développement Web Wild Code School en décembre 2022.
+
+""Le jour est enfin venu pour Jason de venger son père et de récupérer le trône d'Iolcos. Pour atteindre Colchis, Jason doit naviguer sur la mer Noire. Il fit construire un puissant navire pour l'expédition, l'Argo. Maintenant, il doit trouver l'équipage. Ma mission est de créer une application web dynamique incluant un formulaire de saisie où vous et Jason ajouterez en temps réel la liste des candidats.""
+
+## Technologies utilisées##
+Front-end : React, axios, redux toolkit, styled components and lottie animations.
+Back-end : NodeJS, Express and for the database MongoDB with this framework Mongoose.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

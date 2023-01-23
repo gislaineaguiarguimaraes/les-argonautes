@@ -1,6 +1,10 @@
+import styles from './Form.module.css'
+
+import { useForm } from 'react-hook-form'
+
 function Form() {
   return (
-    <form>
+    <form className={styles.form}>
       <div>
         <label htmlFor="name">Nom de l&apos;Argonaute</label>
         <input id="name" name="name" type="text" placeholder="Charalampos" />

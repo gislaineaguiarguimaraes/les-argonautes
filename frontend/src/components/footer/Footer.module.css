@@ -1,12 +1,13 @@
 footer {
   margin-top: 2em;
   text-align: center;
-  color: #fff;
-  background: #f76c6c;
+  color: #f2daac;
+  background: #592d14;
   padding: 0.25em 0;
   width: 100%;
   position: absolute;
   bottom: 0;
+  left: 0;
 }
 
 footer p span {
