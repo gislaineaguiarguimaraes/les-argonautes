@@ -1,5 +1,5 @@
 .header {
-  background: #a67a53d1 /*#592d14 #8c5b30*/;
+  background: var(--bg-light);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,12 +11,32 @@
 
 .header img {
   position: absolute;
-  left: 30%;
+  left: 20%;
   max-width: 140px;
-  margin-left: -60px;
 }
 
 .header h1 {
-  color: #f2daac;
+  color: var(--text-light);
   font-size: 46px;
+}
+@media (max-width: 1078px) {
+  .header img {
+    left: 15%;
+    max-width: 120px;
+  }
+  .header h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    flex-direction: column;
+    height: 200px;
+  }
+  .header img {
+    margin: auto;
+    position: relative;
+    max-width: 100px;
+    left: 5%;
+  }
 }

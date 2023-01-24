@@ -3,16 +3,16 @@ button {
   padding: 10px 25px;
   border: none;
   border-radius: 5px;
-  background-color: #a67a53;
-  color: #592d14;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
   font-size: 16px;
   font-weight: 800;
-  box-shadow: 2px 2px 5px #592d14;
+  box-shadow: var(--shadow-dark);
   transition: all 0.3s ease-in-out;
 }
 
 button:hover {
   transform: scale(1.1);
-  background-color: #592d14;
-  color: #a67a53;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
 }

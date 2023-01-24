@@ -27,7 +27,6 @@ function Main() {
     console.log(argonautes)
   }, [argonautes])
 
-  console.log(argonautes.argonautes.length)
   return (
     <main className={styles.main}>
       <h2>Ajouter un(e) Argonaute</h2>

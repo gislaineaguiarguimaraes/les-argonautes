@@ -16,3 +16,16 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+/*Déclaration des variables de couleurs*/
+:root {
+  --bg-dark: #592d14;
+  --bg-light: #a67a53;
+  --bg-opacity: #a67a536c;
+  --bg-opacity-card: #a67a5337;
+  --text-light: #f2daac;
+  --text-dark: #592d14;
+  --text-opacity: #a67a539d;
+  --shadow-dark: 2px 2px 5px #592d14;
+  --shadow-light: 2px 2px 5px #592d145b;
+}

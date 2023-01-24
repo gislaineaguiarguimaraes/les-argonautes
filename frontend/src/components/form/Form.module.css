@@ -1,5 +1,5 @@
 .form {
-  background: #a67a536c;
+  background: var(--bg-opacity);
   width: 350px;
   padding: 25px;
   margin: auto;
@@ -10,7 +10,7 @@
   font-size: 18px;
   font-weight: 700;
   padding: 10px 0;
-  color: #592d14;
+  color: var(--text-dark);
 }
 
 .form div input {
@@ -21,7 +21,7 @@
 }
 
 .form div input::placeholder {
-  color: #a67a539d;
+  color: var(--text-opacity);
   font-weight: 500;
   font-size: 16px;
 }
