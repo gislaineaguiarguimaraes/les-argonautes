@@ -1,6 +1,6 @@
 ## Les Argonautes ##
 
-Il s'agit du serveur frontal et principal du projet technologique de l'école de développement Web Wild Code School en décembre 2022.
+Il s'agit du serveur frontend et principal du projet technologique de l'école de développement Web Wild Code School.
 
 ""Le jour est enfin venu pour Jason de venger son père et de récupérer le trône d'Iolcos. Pour atteindre Colchis, Jason doit naviguer sur la mer Noire. Il fit construire un puissant navire pour l'expédition, l'Argo. Maintenant, il doit trouver l'équipage. Ma mission est de créer une application web dynamique incluant un formulaire de saisie où vous et Jason ajouterez en temps réel la liste des candidats.""
 
