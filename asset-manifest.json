@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/les-argonautes/static/css/main.799ce1c3.css",
+    "main.css": "/les-argonautes/static/css/main.cdde3bf3.css",
     "main.js": "/les-argonautes/static/js/main.b639a7a6.js",
     "static/media/vintage-textured-watercolor-paper-background.jpg": "/les-argonautes/static/media/vintage-textured-watercolor-paper-background.1accf87f2ee5d35ff100.jpg",
     "static/media/ship-transparent-png-18.png": "/les-argonautes/static/media/ship-transparent-png-18.0a5611a5abcd39cd93d9.png",
     "index.html": "/les-argonautes/index.html",
-    "main.799ce1c3.css.map": "/les-argonautes/static/css/main.799ce1c3.css.map",
+    "main.cdde3bf3.css.map": "/les-argonautes/static/css/main.cdde3bf3.css.map",
     "main.b639a7a6.js.map": "/les-argonautes/static/js/main.b639a7a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.799ce1c3.css",
+    "static/css/main.cdde3bf3.css",
     "static/js/main.b639a7a6.js"
   ]
 }
