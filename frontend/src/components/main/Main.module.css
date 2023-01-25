@@ -82,4 +82,13 @@
     max-width: 90%;
     margin: 20px auto;
   }
+  .main h2 {
+    font-size: 28px;
+  }
+  .card p {
+    font-size: 24px;
+  }
+  .card span {
+    font-size: 24px;
+  }
 }

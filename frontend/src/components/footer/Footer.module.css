@@ -29,9 +29,11 @@ footer p span {
   footer img {
     width: 80px;
     height: 30px;
+    margin-left: 0;
   }
   footer p,
   span {
+    margin: 0 25px;
     font-size: 14px;
   }
 }
