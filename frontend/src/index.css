@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
-  max-width: 1440px;
+
   background-color: rgba(245, 245, 220, 0.527);
 }
 
@@ -19,13 +19,12 @@ body {
 
 /*Déclaration des variables de couleurs*/
 :root {
-  --bg-dark: #592d14;
-  --bg-light: #a67a53;
-  --bg-opacity: #a67a536c;
-  --bg-opacity-card: #a67a5337;
-  --text-light: #f2daac;
+  --bg-dark: #b99369;
+  --bg-light: #dad1c68e;
+  --bg-footer: #8b6341;
+  --bg-opacity-card: #b99469a8;
+  --text-light: #f2f2f2;
   --text-dark: #592d14;
   --text-opacity: #a67a539d;
-  --shadow-dark: 2px 2px 5px #592d14;
   --shadow-light: 2px 2px 5px #592d145b;
 }

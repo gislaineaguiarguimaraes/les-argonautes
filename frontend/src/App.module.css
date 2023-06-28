@@ -1,4 +1,4 @@
 .app {
-  background-image: url('./images/vintage-textured-watercolor-paper-background.jpg');
+  background-color: var(--bg-light);
   position: relative;
 }

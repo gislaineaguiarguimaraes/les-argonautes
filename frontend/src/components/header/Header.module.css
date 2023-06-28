@@ -1,28 +1,32 @@
 .header {
-  background: var(--bg-light);
+  background: var(--bg-dark);
+  box-shadow: var(--shadow-light);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
   position: relative;
   height: 150px;
+  width: 100vw;
   margin-bottom: 30px;
 }
 
 .header img {
   position: absolute;
-  left: 20%;
-  max-width: 140px;
+  left: 25%;
+  max-width: 260px;
+  height: 100%;
 }
 
 .header h1 {
-  color: var(--text-light);
+  color: var(--text-dark);
+  text-shadow: 1px 1px 1px var(--text-light);
   font-size: 46px;
 }
 @media (max-width: 1078px) {
   .header img {
     left: 15%;
-    max-width: 120px;
+    max-width: 240px;
   }
   .header h1 {
     font-size: 40px;

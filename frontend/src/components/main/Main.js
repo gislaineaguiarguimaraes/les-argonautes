@@ -2,17 +2,19 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import styles from './Main.module.css'
 import Form from '../form/Form'
+
+//Importer day.js (bibliothèque JavaScript) pour  manipuler et afficher les dates
 import dayjs from 'dayjs'
 
 function Main() {
-  //Stocker les données à l'intérieur de state
+  //gérer l'état des composants avec useState
   const [argonautes, setArgonautes] = useState([])
 
   //Pour dire que la fonction sera exécutée qu'après le rendu du composant
   const fetchArgonaute = async () => {
     try {
       const response = await axios.get(
-        'https://argonaute-api.herokuapp.com/api/argonaute/getAllArgonautes'
+        'https://api-argonautes.vercel.app/api/argonaute/getAllArgonautes'
       )
       setArgonautes(response.data)
     } catch (err) {

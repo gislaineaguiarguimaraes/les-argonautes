@@ -1,5 +1,5 @@
 import styles from './Header.module.css'
-import Logo from '../../images/ship-transparent-png-18.png'
+import Logo from '../../images/bateau2.png'
 
 function Header() {
   return (

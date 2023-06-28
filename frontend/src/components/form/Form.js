@@ -22,6 +22,7 @@ const validationArgonaute = yup.object().shape({
 })
 
 function Form() {
+  //Le Hook useForm renvoie un objet contenant quelques propriétés.
   const {
     register, //pour spécifier les inputs qui seront enregistrées
     handleSubmit, //gérer l'envoi des informations
@@ -31,7 +32,7 @@ function Form() {
   const addArgonaute = (data) =>
     axios
       .post(
-        'https://argonaute-api.herokuapp.com/api/argonaute/createArgonaute',
+        'https://api-argonautes.vercel.app/api/argonaute/createArgonaute',
         data
       )
       .then(() => {
